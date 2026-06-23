@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== PAGE BACKGROUND ===== */
+body {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== MAIN CARD ===== */
+.main-card {
+    width: 420px;
+    padding: 30px;
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+
+    box-shadow: 0 15px 45px rgba(0,0,0,0.55);
+    text-align: center;
+}
+
+/* ===== LOGO ===== */
+.logo {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+/* ===== COLLEGE NAME ===== */
+.college-name {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    color: #e5e7eb;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* ===== TITLE ===== */
+.main-card h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 14px;
+}
+
+/* Teacher */
+.btn-teacher {
+    background: #2563eb;
+}
+
+.btn-teacher:hover {
+    background: #1e40af;
+}
+
+/* Student */
+.btn-student {
+    background: #16a34a;
+}
+
+.btn-student:hover {
+    background: #15803d;
+}

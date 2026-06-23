@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+    ),
+    url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== GLASS CARD ===== */
+.glass-card {
+    width: 380px;
+    padding: 30px;
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    z-index: 10;
+}
+
+/* ===== HEADING ===== */
+.glass-card h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* ===== INPUTS ===== */
+.glass-card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 14px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-login {
+    background: #2563eb;
+}
+
+.btn-login:hover {
+    background: #1e40af;
+}
+
+/* ===== SELECT LOGIN BUTTONS ===== */
+.btn-blue { background: #2563eb; }
+.btn-green { background: #16a34a; }
+
+.btn-blue:hover { background: #1e40af; }
+.btn-green:hover { background: #15803d; }
+
+/* ===== LOGO ===== */
+.logo {
+    width: 80px;
+    margin-bottom: 12px;
+}
